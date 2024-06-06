@@ -1,8 +1,8 @@
-package com.example.todo_management.controller;
+package com.example.todo_backend.controller;
 
-import com.example.todo_management.dto.TaskDTO;
-import com.example.todo_management.exception.ResourceNotFoundException;
-import com.example.todo_management.service.TaskServiceImpl;
+import com.example.todo_backend.dto.TaskDTO;
+import com.example.todo_backend.exception.ResourceNotFoundException;
+import com.example.todo_backend.service.TaskServiceImpl;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/task")
 public class TaskController {

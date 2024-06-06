@@ -1,6 +1,6 @@
-package com.example.todo_management.service;
+package com.example.todo_backend.service;
 
-import com.example.todo_management.dto.TaskDTO;
+import com.example.todo_backend.dto.TaskDTO;
 
 import java.util.List;
 import java.util.Optional;

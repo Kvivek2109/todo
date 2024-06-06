@@ -1,7 +1,7 @@
-package com.example.todo_management.mapper;
+package com.example.todo_backend.mapper;
 
-import com.example.todo_management.dto.TaskDTO;
-import com.example.todo_management.model.Task;
+import com.example.todo_backend.dto.TaskDTO;
+import com.example.todo_backend.model.Task;
 import org.springframework.stereotype.Component;
 
 @Component

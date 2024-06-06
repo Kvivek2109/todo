@@ -1,9 +1,9 @@
-package com.example.todo_management.service;
+package com.example.todo_backend.service;
 
-import com.example.todo_management.dto.TaskDTO;
-import com.example.todo_management.mapper.TaskDTOMapper;
-import com.example.todo_management.model.Task;
-import com.example.todo_management.repository.TaskRepository;
+import com.example.todo_backend.dto.TaskDTO;
+import com.example.todo_backend.mapper.TaskDTOMapper;
+import com.example.todo_backend.model.Task;
+import com.example.todo_backend.repository.TaskRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

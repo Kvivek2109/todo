@@ -1,4 +1,4 @@
-package com.example.todo_management.dto;
+package com.example.todo_backend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

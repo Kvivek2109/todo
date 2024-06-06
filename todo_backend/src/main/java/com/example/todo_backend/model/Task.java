@@ -1,4 +1,4 @@
-package com.example.todo_management.model;
+package com.example.todo_backend.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
